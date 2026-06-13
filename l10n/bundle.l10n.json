@@ -1,0 +1,16 @@
+{
+  "ext.displayName": "Text Line Processor",
+  "ext.description": "A VSCode extension for line-by-line text processing. Add single/double quotes to each line, or append trailing commas (except last non-empty line). Right-click context menu integration with support for selected text or entire file.",
+  "command.lineProcessor.process": "Text Line Processor",
+  "label.addSingleQuotes": "Add Single Quotes",
+  "label.addDoubleQuotes": "Add Double Quotes",
+  "label.addTrailingComma": "Add Trailing Comma",
+  "label.joinWithCommas": "Join with Commas",
+  "label.splitByCommas": "Split by Commas",
+  "desc.wrapSingle": "Wrap each line with single quotes",
+  "desc.wrapDouble": "Wrap each line with double quotes",
+  "desc.addComma": "Add comma at end of each line (except last non-empty)",
+  "desc.join": "Join all lines with commas into one line",
+  "desc.split": "Split comma-separated text into multiple lines",
+  "placeholder.selectOperation": "Select a line processing operation"
+}

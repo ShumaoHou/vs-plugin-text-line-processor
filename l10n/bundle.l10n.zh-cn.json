@@ -1,0 +1,16 @@
+{
+  "ext.displayName": "文本行处理器",
+  "ext.description": "一个按行处理文本的VSCode扩展。为每行添加单引号/双引号，或添加尾随逗号（最后一非空行除外）。右键菜单集成，支持选中文本或整个文件。",
+  "command.lineProcessor.process": "文本行处理器",
+  "label.addSingleQuotes": "添加单引号",
+  "label.addDoubleQuotes": "添加双引号",
+  "label.addTrailingComma": "添加尾随逗号",
+  "label.joinWithCommas": "用逗号合并为一行",
+  "label.splitByCommas": "按逗号拆分为多行",
+  "desc.wrapSingle": "用单引号包裹每行",
+  "desc.wrapDouble": "用双引号包裹每行",
+  "desc.addComma": "每行末尾添加逗号（最后一非空行除外）",
+  "desc.join": "将所有行用逗号连接为一行",
+  "desc.split": "将逗号分隔的文本拆分为多行",
+  "placeholder.selectOperation": "选择一个行处理操作"
+}
