@@ -1,8 +1,11 @@
 node_modules/
 out/
 build/
+dist/
 *.vsix
 .vscode-test/
+.vscode/
+.codegraph/
 *.log
 .DS_Store
 Thumbs.db
