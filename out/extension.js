@@ -93,7 +93,7 @@ function activate(context) {
                 });
                 break;
             case 'join':
-                const joinedText = selectedLines.join(', ');
+                const joinedText = selectedLines.join(',');
                 const range = new vscode.Range(new vscode.Position(startLine, 0), new vscode.Position(endLine, lines[endLine].length));
                 await editor.edit(editBuilder => {
                     editBuilder.replace(range, joinedText);
